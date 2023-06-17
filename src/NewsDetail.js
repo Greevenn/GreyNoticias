@@ -8,7 +8,8 @@ const NewsDetail = ({ navigation}) =>{
     return(
         <View style={styles.container}>
             <Text style={styles.title}> {newsItem.title}</Text>
-            <Text style={styles.descripcion}>{newsItem.descripcion}</Text>
+          
+            <Text style={styles.description}>{newsItem.description}</Text>
         </View>
     );
 };
@@ -23,8 +24,10 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: 'black'
     },
-    descripcion: {
+    description: {
         fontSize: 14,
+        color: 'black'
+      
     },
 })
 
