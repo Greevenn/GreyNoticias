@@ -12,3 +12,20 @@ const NewsDetail = ({ navigation}) =>{
         </View>
     );
 };
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        padding: 16,
+    },
+    title: {
+        fontSize: 18,
+        fontWeight: 'bold',
+        color: 'black'
+    },
+    descripcion: {
+        fontSize: 14,
+    },
+})
+
+export default NewsDetail;
