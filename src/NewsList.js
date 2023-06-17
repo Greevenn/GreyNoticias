@@ -43,3 +43,39 @@ const NewsList = ({navigation}) => {
       </View>
     );
   };
+
+  
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      padding: 16,
+      backgroundColor: '#1E1E1E',
+    },
+    title: {
+      fontSize: 20,
+      fontWeight: 'bold',
+      marginBottom: 18,
+      color: '#EDEDED',
+    },
+    newsItem: {
+      backgroundColor: '#323232',
+      padding: 16,
+      marginBottom: 16,
+      borderRadius: 8,
+      elevation: 2,
+    },
+    newsTitulo: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      marginBottom: 8,
+      color: '#F4F4F4',
+    },
+  
+    newsDescripcion: {
+      fontSize: 14,
+      color: '#CCCCCC',
+    },
+  });
+  
+  export default NewsList;
+  
